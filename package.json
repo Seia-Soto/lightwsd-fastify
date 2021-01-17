@@ -1,0 +1,23 @@
+{
+  "name": "lightwsd-fastify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Seia-Soto <seia@outlook.kr>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify-plugin": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.17.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.3",
+    "utf-8-validate": "^5.0.4"
+  }
+}
