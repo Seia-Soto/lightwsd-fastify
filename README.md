@@ -87,6 +87,26 @@ app.route({
 })
 ```
 
+## `handler (connection, request, lightwsd) => ...`
+
+- `connection` (WebSocket) An established websocket connection to client.
+  - `fns` (lightwsd.fns) A short-cut access for lightwsd functions.
+- `request` (HTTP.IncomingMessage) An incoming HTTP request.
+- `lightwsd` (lightwsd) Lightwsd instance.
+
+A handler function that you create will handle incoming connection.
+
+```js
+app.route({
+  method: 'GET',
+  url: '/anotherRoute',
+  ws: 1,
+  handler: async (connection, request, lightwsd) => {
+    connection.fns.send(connection.id, { hello: 'world' })
+  }
+})
+```
+
 ## LICENSE
 
 This project is distributed under [MIT License](./LICENSE).
