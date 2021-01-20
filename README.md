@@ -16,7 +16,7 @@ Inspired from [`fastify/fastify-websocket`](https://github.com/fastify/fastify-w
 To install this plugin, you need to install this repository:
 
 ```bash
-yarn add Seia-Soto/lightwsd-fastify#[TAG]
+yarn add git+https://github.com/Seia-Soto/lightwsd-fastify#[TAG]
 ```
 
 # Usage

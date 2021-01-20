@@ -1,6 +1,6 @@
 {
   "name": "lightwsd-fastify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Seia-Soto <seia@outlook.kr>",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "eventemitter3": "^4.0.7",
     "fastify-plugin": "^3.0.0",
     "find-my-way": "^3.0.5",
-    "lightwsd": "Seia-Soto/lightwsd#v1.3.1",
+    "lightwsd": "git+https://github.com/Seia-Soto/lightwsd#v1.4.0",
     "urlite": "^3.0.0"
   },
   "devDependencies": {
